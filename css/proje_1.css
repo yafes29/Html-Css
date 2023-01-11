@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+font-size: 16px;
+line-height: 1.5;
+}
+.header{
+    background-color:#89CFF0 ;
+    padding: 30px 20px;
+}
+
+.header-title{
+    color: rgb(242, 234, 234);
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.section-accent{
+    margin:20px;
+}
+.section-accent-title{
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 2rem;
+}
+.section-accent-content{
+    font-size: 1.2em;
+}
+
+.section-ability{
+    background-color:#0096FF ;
+    padding: 20px;
+}
+.section-ability-title{
+    color:white;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.section-ability-list{
+    list-style: none;
+    color: antiquewhite;
+    font-size: 1.2em;
+}
+
+.section-proje{
+background-color: #6F8FAF;
+margin-bottom: 30px;
+padding-bottom: 30px;
+}
+
+.section-proje-title{
+    padding: 30px 0px;
+    text-align: center;
+    font-size: 2em;
+}
+
+
+.picture{
+    width: 20rem;
+    margin: 20px 0px 20px 20px;
+}
+
+.paragraf{
+    font-size: 1.3em;
+    text-align:center;
+    color: antiquewhite;
+    font-size: 1.40em;
+}
+
+.form{
+    margin: 0px 40px;
+}
+
+.input{
+    padding: .2em;
+    outline: none;
+    font-size: 1em;
+    font-size: inherit;
+    line-height: inherit;
+    resize: none;
+    border: 1px solid #ccc;
+}
+
+.input:focus{
+    border-color: rgb(187, 184, 179);
+    box-shadow: 0 0 2px 1px;
+}
+
+.btn{
+    border: none;
+    margin-top: 20px;
+    padding: 0.4rem 1rem;
+    cursor: pointer;
+    color: crimson;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.btn:hover{
+    background-color: rgb(182, 133, 18);
+    border-radius: 2rem;
+    box-shadow: 0px 0px 5px 1px;
+    border: none;
+}
+
+footer{
+    background-color: darkseagreen;
+    padding: 2rem;
+    margin-top: 20px;
+}
+
+footer h2{
+    color: white;
+    text-align: center;
+}

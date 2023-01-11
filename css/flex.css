@@ -1,0 +1,40 @@
+.container{
+    display: flex;  
+    border: 1px solid gray;
+    height: 400px;
+
+    
+}
+.div{
+    width: 200px;
+    margin: 20px;
+    min-height: 100px;
+}
+.div-bir{
+    background-color: aquamarine; 
+    order: 3;
+    flex-shrink: 0;
+}
+.div-iki{
+    background-color: brown;
+    order: 2;
+    flex-shrink: 2;
+ 
+}
+.div-üc{
+    background-color: burlywood;
+    order: 1;
+    flex-shrink: 3;
+}
+.div-dört{
+    background-color: cornflowerblue;
+    order: 0;
+    flex-shrink: 4;
+  
+}
+.div-bes{
+    background-color: darkgoldenrod;
+  order: -1;
+  flex-shrink: 5;
+  align-self: center;
+}

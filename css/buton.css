@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.btn{
+
+    margin: 15px 8px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    font-size: 1em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: .5em 1em;
+    
+}
+
+.btn-1{
+    
+    background-color:rgb(158, 153, 233);
+}
+.btn-1:hover{
+    background-color: rgb(216, 74, 74);
+    box-shadow: 3px 4px 14px 1px rgb(100, 142, 233);    
+}
+
+.btn-2{
+    background-color: rgb(6, 144, 144);
+    color: rgb(24, 203, 83);
+    font-size: 1.2em;
+}
+.btn-2:hover{
+    font-size: 1.3em;
+    background-color: aliceblue;
+    color: red;
+
+}
+.btn-3{
+    background-color: rgb(131, 180, 48);
+    border: 1px solid seagreen;
+    border-width: 5px;
+    border-color: blueviolet;
+    padding: 10px 20px;
+}
+ .btn-3:hover{
+    color: red;
+    background-color: black;
+    border-radius: 1px;
+    box-shadow: 0 0 20px 12px rosybrown;
+}

@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+   
+}
+
+.navbar{
+    display: flex;
+    background-color:darksalmon;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 0.5rem;
+    align-items:center;
+    justify-content: space-between;
+}
+span{
+font-family: inherit;
+}
+span:hover{
+    background-color: beige;
+    cursor: pointer;
+}
+
+.listeler{
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+.list{
+    padding: 0px 0.5rem;
+}
+
+.list a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+  
+}
+
+.list a:hover{
+   background-color: rgb(149, 194, 45);
+    box-shadow: 0 0 5px 2px red;
+}
