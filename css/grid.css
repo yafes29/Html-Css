@@ -8,6 +8,9 @@
     display: grid;
     grid-template-rows: 100px 200px 100px 200px;
     grid-template-columns:repeat(12,1fr);
+    gap: 5px;
+    background-color: black;
+    
 }
 
 .header{
@@ -31,6 +34,8 @@
     background-color: darkgoldenrod;
     grid-column: 1 / -1;
 }
-.div{ 
+.div{
+     
     text-align: center;
+    text-transform: uppercase;
 }
