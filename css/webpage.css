@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container{
+height: 100vh;
+display: grid;
+grid-template-columns: repeat(4 1fr);
+grid-template-rows: 100px 150px 329px 70px;
+grid-template-areas: 
+"header header header header"
+"content content content content"
+"main main main section"
+"footer footer footer footer"
+;
+}
+.header{
+background-color:#FFEBEE;
+grid-area: header;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.header-span{
+    font-size: 1.5rem;
+    color: rgb(14, 14, 14);
+    cursor: pointer;
+    margin-left: 20px;
+}
+.header-list-ul {
+    display: flex;
+    list-style: none;
+    
+}
+.li{
+    color: rgb(23, 20, 20);
+    margin: 0px 15px;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.content{
+grid-area: content;
+display: flex;
+background-color: #FFCDD2;
+}
+.content .box{
+   
+    text-align: center;
+    margin: 1rem;
+    font-family: inherit;
+    font-size: 1.2rem;
+    line-height: 20px;
+    overflow:auto;
+    
+
+}
+.content .box h4 {
+    margin-bottom: .5rem;
+}
+.content .box p {
+    overflow-wrap: break-word;
+}
+
+.main{
+grid-area: main;
+background-image: url("https://source.unsplash.com/random/1024*1024");
+background-size: cover;
+background-repeat: none;
+font-family: inherit;
+}
+.main .main-paragraf{
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  margin-top: 3rem;
+  color: white;
+  line-height: 2rem;
+}
+.main .main-title{
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    margin-top: 2rem;
+}
+.section{
+grid-area: section;
+display: flex;
+flex-direction: column;
+background-color:#EF9A9A;
+
+}
+.section label{
+    text-align:left;
+    margin-left: 2rem;
+    margin-top: 0.4rem;
+}
+.section .input{
+    width: 80%;
+    margin-left: 1rem;
+    margin-top: 0.7rem;
+    border-radius: 5px;
+    padding: 0.5rem;
+    font-family: inherit;
+    font-size: 1.2rem;
+    
+}
+
+.footer{
+grid-area: footer;
+display: flex;
+justify-content:space-around;
+background-color: #FFEBEE;
+}
+.footer .footer-h5, .footer-span{
+    font-size: 2rem;
+    margin-top: 1rem;
+    color: rgb(11, 11, 11);
+    font-family: inherit;
+    cursor: pointer;
+}
+
+@media all and (max-width:600px){
+
+    .header{
+        flex-direction: column;
+        text-align: center;
+    }
+    .header .header-list-ul{
+        flex-direction: column;    
+    }
+    .content{
+        flex-direction: column;
+        
+    }
+    .content .box{
+        margin: 0px 2rem;
+    }
+}
