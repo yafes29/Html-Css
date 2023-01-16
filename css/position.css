@@ -25,12 +25,17 @@ body{
     background-color: chocolate;
     padding: 2rem;
     width: 50%;
+    z-index: 3;
+    position: relative;
     
 }
 .item-2{
     background-color: chartreuse;
     padding: 2rem;
     width: 50%;
+    z-index: 4;
+    position: relative;
+    bottom: 20px;
 
    
 }
