@@ -16,6 +16,8 @@ body{
     margin-left: 22rem;
     border: 1px solid black;
     padding: 2rem;
+    position: relative;
+    height: 100vh;
     
     
 }
@@ -23,14 +25,14 @@ body{
     background-color: chocolate;
     padding: 2rem;
     width: 50%;
-    position: relative;
-    bottom: 20px;
     
 }
 .item-2{
     background-color: chartreuse;
     padding: 2rem;
     width: 50%;
+
+   
 }
 .item-3{
     background-color: rgb(98, 85, 223);
