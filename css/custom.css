@@ -1,0 +1,25 @@
+*{
+    text-align: center;
+}
+:root{
+
+    --nav-bar:orange;
+    --main-section:red;
+    
+}
+
+h2{
+    color: var(--nav-bar);
+    
+}
+
+h3{
+   color: var(--nav-bar);
+
+}
+p{
+    --nav-bar:purple;
+    color: var(--main-section);
+    
+}
+
