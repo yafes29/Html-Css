@@ -1,0 +1,40 @@
+
+body{
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+#h2sınıf{
+    color: red;
+}
+.h2Sinif{
+    color: blue;
+}
+
+span, p{
+    color: orange;
+}
+
+div span{
+    color: red;
+}
+
+div > span{
+    color: black;
+}
+
+.container p{
+    color: darkolivegreen;
+}
+
+.container .iki{
+    background-color: rgb(176, 165, 226);
+}
+
+div ~ p {
+    background-color: blue;
+}
+
+p ~ div {
+    background-color: cyan;
+}
