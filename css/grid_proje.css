@@ -57,3 +57,8 @@ div{
     border: none;
     background-color: whitesmoke;
 }
+
+#header{
+    background: url(../img/resim/logo.png) no-repeat 10vw center;
+    background-size: 15%;
+}
