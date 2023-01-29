@@ -12,7 +12,8 @@
     "footer"
     ;
     grid-template-rows: 100px auto 300px;
-    height: 1500px;
+    height: 2000px;
+    background-color: lightslategray;
   
 }
 div{
@@ -32,6 +33,7 @@ div{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 2fr 3fr 2fr;
+    grid-gap: 1rem;
 }
 #footer{
     grid-area: footer;
@@ -42,4 +44,16 @@ div{
 .copyright{
     grid-column: 1/-1;
     text-align: center;
+}
+
+.article > div:nth-child(1){
+    grid-column: 1/span 2;
+}
+.article > div:last-child{
+    grid-column-start: 4;
+    grid-column-end:2;
+}
+.article > div{
+    border: none;
+    background-color: whitesmoke;
 }
