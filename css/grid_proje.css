@@ -59,6 +59,15 @@ div{
 }
 
 #header{
-    background: url(../img/resim/logo.png) no-repeat 10vw center;
+    background: url(../img/resim/logo.png) no-repeat 5vw center;
     background-size: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+#header > a {
+    color: whitesmoke;
+    margin: 0.3rem;
 }
