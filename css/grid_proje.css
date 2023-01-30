@@ -80,6 +80,11 @@ div{
     color: gray;
     margin: 0.3rem;
 }
+#header > a i:hover{
+background-color: lightgray;
+border-radius: .5rem;
+padding: .5rem;
+}
 
 #header > ul {
     display: flex;
@@ -132,26 +137,42 @@ left: 0;
 background: url(../img/resim/featured.jpg) no-repeat center center/cover;
 width: 100%;
 height: 100%;
-opacity: 0.7;
+opacity: .8;
 }
 
 .content-intro h5{
     font-family: 'Kanit', sans-serif;
-    font-size: 1.1rem;
-    background-color: lightgray;
-    border-radius: 5rem;
-    width: 10rem;
-    padding: .2rem;
-    margin-bottom: 10px;
+    font-size: .7rem;
     text-align: center;
+    border-radius: 5rem;
+    width: 3rem;
+    margin-bottom: 10px;
+    cursor: pointer;
+    color: white;
+    background-color: orange;
 }
-.content-intro h3{
 
+.content-intro h3{
+    font-family: 'Mukta', sans-serif;
+    margin-bottom: 1rem;
+    color: white;
+    font-weight: bolder;
 
 }
 .content-intro p{
-
+    font-family: 'Mukta', sans-serif;
+    margin-bottom: 1rem;
+    color: white;
 }
 .content-intro a.btn{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: .4rem;
 
+    width: 30%;
+   background-color: rgb(227, 13, 13);
+ 
+   
 }
+
