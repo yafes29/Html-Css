@@ -6,6 +6,7 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
 
 #container{
     display: grid;
@@ -35,10 +36,11 @@ div{
 .article{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 2fr 3fr 2fr;
+    grid-template-rows: 50px 2fr 3fr 2fr;
     grid-gap: 1rem;
-    margin-left: 10vw;
-    margin-right: 10vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    border: none;
 }
 #footer{
     grid-area: footer;
@@ -52,19 +54,38 @@ div{
 }
 
 .article > div:nth-child(1){
+    grid-column: 1/span 3;
+}
+.article > div:nth-child(3){
+    background-color: rgb(191, 183, 180);
+    border-radius: 0rem 2rem 0rem 2rem;
+}
+.article > div:nth-child(2){
     grid-column: 1/span 2;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 .article > div:last-child{
     grid-column-start: 4;
     grid-column-end:2;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.article > div:nth-child(7){
+    background-color: rgb(179, 57, 13);
+    border-radius: 0rem 2rem 0rem 2rem;
 }
 .article > div{
     border: none;
     background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
 }
 
 #header{
-    background: url(../img/resim/logo.png) no-repeat 10vw center, white;
+    background: url(../img/resim/logo.png) no-repeat 10vw  center, white;
     background-size: 15%;
     display: flex;
     justify-content: flex-end;
@@ -155,14 +176,14 @@ opacity: .8;
 .content-intro h3{
     font-family: 'Mukta', sans-serif;
     margin-bottom: 1rem;
-    color: white;
+    color: rgb(207, 86, 86);
     font-weight: bolder;
 
 }
 .content-intro p{
     font-family: 'Mukta', sans-serif;
     margin-bottom: 1rem;
-    color: white;
+    color: rgb(109, 65, 65);
 }
 .content-intro a.btn{
     display: block;
@@ -175,3 +196,51 @@ opacity: .8;
  
 }
 
+.article .contentBox .boxKapsayıcı{
+    margin: 1rem;
+
+}
+.article .contentText .content-edıtor{
+    text-align: center;
+    margin-top: 1rem ;
+    font-family: 'Aboreto', cursive;
+    font-size: larger;
+  }
+
+  .article .contentBox img{
+    height: 250px;
+    margin: 1rem;
+  }
+
+  .article .contentBox h5.eglenceBaslik{
+    background-color: rgb(195, 174, 174);
+  }
+  .article .contentBox h5.sporBaslik{
+    background-color: brown;
+  }
+  .article .contentBox h5.teknolojiBaslik{
+    background-color: rgb(186, 213, 205);
+  }
+  .article .contentBox h5{
+    display: block;
+    width: 7rem;
+    padding: .25rem 1rem;
+    border-radius: 1rem;
+
+  }
+  
+  .article .contentBox h3{
+    font-size: 1.5rem;
+    font-family: 'Mukta', sans-serif;
+    margin: 1rem .25rem;
+  }
+  .article .contentBox p{
+    font-size: 1.2rem;
+    margin: .25rem;
+  }
+  
+  
+  
+  
+  
+  
