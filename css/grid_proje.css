@@ -4,10 +4,13 @@
     padding: 0;
     font-size: 16px;
 }
+body{
+    background-color: lightgray;
+}
 @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
 #container{
     display: grid;
     grid-template-areas: 
@@ -20,9 +23,7 @@
     background-color: lightgray;
   
 }
-div{
-    border: 1px solid red;
-}
+
 
 #header{
     grid-area: header;
@@ -42,12 +43,7 @@ div{
     margin-right: 5vw;
     border: none;
 }
-#footer{
-    grid-area: footer;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 3fr 1fr;
-}
+
 .copyright{
     grid-column: 1/-1;
     text-align: center;
@@ -166,24 +162,25 @@ opacity: .8;
     font-size: .7rem;
     text-align: center;
     border-radius: 5rem;
-    width: 3rem;
+    width: 5rem;
     margin-bottom: 10px;
     cursor: pointer;
     color: white;
     background-color: orange;
+    padding: 0.2rem 1rem;
 }
 
 .content-intro h3{
     font-family: 'Mukta', sans-serif;
     margin-bottom: 1rem;
-    color: rgb(207, 86, 86);
+    color: rgb(24, 24, 24);
     font-weight: bolder;
 
 }
 .content-intro p{
     font-family: 'Mukta', sans-serif;
     margin-bottom: 1rem;
-    color: rgb(109, 65, 65);
+    color: rgb(17, 16, 16);
 }
 .content-intro a.btn{
     display: block;
@@ -238,9 +235,109 @@ opacity: .8;
     font-size: 1.2rem;
     margin: .25rem;
   }
+  #footer{
+    grid-area: footer;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 2fr;
+    grid-template-rows: 2fr 1fr;
+    background-color: dimgray;
+    margin-top: 1rem;
+    grid-gap: 1rem;
+    font-family: 'Aboreto', cursive;
+    
+}
+
+#footer .footerBox{
+padding: 1rem;
+
+}
+
+#footer div:last-child{
+    grid-column: 1/-1;
+    text-align: center;
+}
+
+#footer div:nth-child(4){
+    margin-right: 10vw;
+ }
+
+ #footer div:first-child{
+    margin-left: 10vw;
+ }
+ .Copyright{
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-bottom: 1rem;
+    
+ }
   
+ .footerBox img{
+    width: 15em;
+    margin-bottom: 1rem;
+ }
+ .footerBox p{
+    font-size: 1.2rem;
+    color: white;
+ }
+
+
+ .footerBox h3{
+    font-size: 1.4rem;
+    color: white;
+    margin-bottom: 1rem;
+    opacity: 1.2rem;
+    margin-top: 1rem;
+
+    
+ }
   
-  
+ .footerBox form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+ }
+ .footerBox form button{
+    margin-top: 0.5rem;
+    background-color: red;
+    padding: .2rem;
+    color: white;
+    border: none;
+    cursor: pointer;
+ }
+ .footerBox ul{
+    list-style: none;
+    color: white;
+ }
+ .footerBox ul li{
+    padding: .2rem;
+    border-bottom: 2px dotted white;
+    font-size: 1.5rem;
+ }
+ .footer-link{
+    display: block;
+    background-color: yellow;
+    width: 6rem;
+    padding: 0.3rem 1rem;
+    text-align: center;
+    border-radius: 0.1rem;
+    text-decoration: none;
+    margin-top: 1rem;
+    font-weight: bold;
+
+ }
+ .Copyright{
+    font-family: 'Aboreto', cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .7rem;
+    opacity: .5rem;
+    border: none;
+    font-weight: bolder;
+    background-color: rgb(182, 174, 174);
+    margin-bottom: 1rem;
+
+ }
   
   
   
